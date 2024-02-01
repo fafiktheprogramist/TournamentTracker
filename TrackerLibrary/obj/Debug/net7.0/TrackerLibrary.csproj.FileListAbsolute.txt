@@ -1,0 +1,11 @@
+E:\programowanie\projekty\TimCorey\TournamentTracker\TrackerLibrary\bin\Debug\net7.0\TrackerLibrary.deps.json
+E:\programowanie\projekty\TimCorey\TournamentTracker\TrackerLibrary\bin\Debug\net7.0\TrackerLibrary.dll
+E:\programowanie\projekty\TimCorey\TournamentTracker\TrackerLibrary\bin\Debug\net7.0\TrackerLibrary.pdb
+E:\programowanie\projekty\TimCorey\TournamentTracker\TrackerLibrary\obj\Debug\net7.0\TrackerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\programowanie\projekty\TimCorey\TournamentTracker\TrackerLibrary\obj\Debug\net7.0\TrackerLibrary.AssemblyInfoInputs.cache
+E:\programowanie\projekty\TimCorey\TournamentTracker\TrackerLibrary\obj\Debug\net7.0\TrackerLibrary.AssemblyInfo.cs
+E:\programowanie\projekty\TimCorey\TournamentTracker\TrackerLibrary\obj\Debug\net7.0\TrackerLibrary.csproj.CoreCompileInputs.cache
+E:\programowanie\projekty\TimCorey\TournamentTracker\TrackerLibrary\obj\Debug\net7.0\TrackerLibrary.dll
+E:\programowanie\projekty\TimCorey\TournamentTracker\TrackerLibrary\obj\Debug\net7.0\refint\TrackerLibrary.dll
+E:\programowanie\projekty\TimCorey\TournamentTracker\TrackerLibrary\obj\Debug\net7.0\TrackerLibrary.pdb
+E:\programowanie\projekty\TimCorey\TournamentTracker\TrackerLibrary\obj\Debug\net7.0\ref\TrackerLibrary.dll
