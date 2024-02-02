@@ -34,6 +34,14 @@
             this.roundDropbox = new System.Windows.Forms.ComboBox();
             this.unplayedOnlyCheckbox = new System.Windows.Forms.CheckBox();
             this.matchupListBox = new System.Windows.Forms.ListBox();
+            this.teamOneName = new System.Windows.Forms.Label();
+            this.TeamOneScoreLabel = new System.Windows.Forms.Label();
+            this.teamOneScoreText = new System.Windows.Forms.TextBox();
+            this.teamTwoScoreText = new System.Windows.Forms.TextBox();
+            this.TeamTwoScoreLabel = new System.Windows.Forms.Label();
+            this.teamTwoName = new System.Windows.Forms.Label();
+            this.versusSign = new System.Windows.Forms.Label();
+            this.scoreButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label6
@@ -60,7 +68,7 @@
             // roundLabel
             // 
             this.roundLabel.AutoSize = true;
-            this.roundLabel.Location = new System.Drawing.Point(24, 104);
+            this.roundLabel.Location = new System.Drawing.Point(22, 99);
             this.roundLabel.Name = "roundLabel";
             this.roundLabel.Size = new System.Drawing.Size(83, 36);
             this.roundLabel.TabIndex = 8;
@@ -95,12 +103,88 @@
             this.matchupListBox.Size = new System.Drawing.Size(292, 326);
             this.matchupListBox.TabIndex = 11;
             // 
+            // teamOneName
+            // 
+            this.teamOneName.AutoSize = true;
+            this.teamOneName.Location = new System.Drawing.Point(394, 198);
+            this.teamOneName.Name = "teamOneName";
+            this.teamOneName.Size = new System.Drawing.Size(201, 36);
+            this.teamOneName.TabIndex = 12;
+            this.teamOneName.Text = "<TeamOneName>";
+            // 
+            // TeamOneScoreLabel
+            // 
+            this.TeamOneScoreLabel.AutoSize = true;
+            this.TeamOneScoreLabel.Location = new System.Drawing.Point(394, 234);
+            this.TeamOneScoreLabel.Name = "TeamOneScoreLabel";
+            this.TeamOneScoreLabel.Size = new System.Drawing.Size(79, 36);
+            this.TeamOneScoreLabel.TabIndex = 13;
+            this.TeamOneScoreLabel.Text = "Score:";
+            // 
+            // teamOneScoreText
+            // 
+            this.teamOneScoreText.Location = new System.Drawing.Point(479, 231);
+            this.teamOneScoreText.Name = "teamOneScoreText";
+            this.teamOneScoreText.Size = new System.Drawing.Size(122, 45);
+            this.teamOneScoreText.TabIndex = 14;
+            // 
+            // teamTwoScoreText
+            // 
+            this.teamTwoScoreText.Location = new System.Drawing.Point(479, 406);
+            this.teamTwoScoreText.Name = "teamTwoScoreText";
+            this.teamTwoScoreText.Size = new System.Drawing.Size(122, 45);
+            this.teamTwoScoreText.TabIndex = 17;
+            // 
+            // TeamTwoScoreLabel
+            // 
+            this.TeamTwoScoreLabel.AutoSize = true;
+            this.TeamTwoScoreLabel.Location = new System.Drawing.Point(394, 406);
+            this.TeamTwoScoreLabel.Name = "TeamTwoScoreLabel";
+            this.TeamTwoScoreLabel.Size = new System.Drawing.Size(79, 36);
+            this.TeamTwoScoreLabel.TabIndex = 16;
+            this.TeamTwoScoreLabel.Text = "Score:";
+            // 
+            // teamTwoName
+            // 
+            this.teamTwoName.AutoSize = true;
+            this.teamTwoName.Location = new System.Drawing.Point(394, 370);
+            this.teamTwoName.Name = "teamTwoName";
+            this.teamTwoName.Size = new System.Drawing.Size(204, 36);
+            this.teamTwoName.TabIndex = 15;
+            this.teamTwoName.Text = "<TeamTwoName>";
+            // 
+            // versusSign
+            // 
+            this.versusSign.AutoSize = true;
+            this.versusSign.Location = new System.Drawing.Point(473, 307);
+            this.versusSign.Name = "versusSign";
+            this.versusSign.Size = new System.Drawing.Size(43, 36);
+            this.versusSign.TabIndex = 18;
+            this.versusSign.Text = "VS";
+            // 
+            // scoreButton
+            // 
+            this.scoreButton.Location = new System.Drawing.Point(650, 292);
+            this.scoreButton.Name = "scoreButton";
+            this.scoreButton.Size = new System.Drawing.Size(137, 66);
+            this.scoreButton.TabIndex = 19;
+            this.scoreButton.Text = "Score";
+            this.scoreButton.UseVisualStyleBackColor = true;
+            // 
             // TournamentViewerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 36F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(1733, 1061);
+            this.Controls.Add(this.scoreButton);
+            this.Controls.Add(this.versusSign);
+            this.Controls.Add(this.teamTwoScoreText);
+            this.Controls.Add(this.TeamTwoScoreLabel);
+            this.Controls.Add(this.teamTwoName);
+            this.Controls.Add(this.teamOneScoreText);
+            this.Controls.Add(this.TeamOneScoreLabel);
+            this.Controls.Add(this.teamOneName);
             this.Controls.Add(this.matchupListBox);
             this.Controls.Add(this.unplayedOnlyCheckbox);
             this.Controls.Add(this.roundDropbox);
@@ -124,6 +208,14 @@
         private System.Windows.Forms.ComboBox roundDropbox;
         private System.Windows.Forms.CheckBox unplayedOnlyCheckbox;
         private System.Windows.Forms.ListBox matchupListBox;
+        private System.Windows.Forms.Label teamOneName;
+        private System.Windows.Forms.Label TeamOneScoreLabel;
+        private System.Windows.Forms.TextBox teamOneScoreText;
+        private System.Windows.Forms.TextBox teamTwoScoreText;
+        private System.Windows.Forms.Label TeamTwoScoreLabel;
+        private System.Windows.Forms.Label teamTwoName;
+        private System.Windows.Forms.Label versusSign;
+        private System.Windows.Forms.Button scoreButton;
     }
 }
 
