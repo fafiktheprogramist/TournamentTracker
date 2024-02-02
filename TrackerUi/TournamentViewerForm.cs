@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace TrackerUi
 {
-    public partial class Form1 : Form
+    public partial class TournamentViewerForm : Form
     {
-        public Form1()
+        public TournamentViewerForm()
         {
             InitializeComponent();
+        }
+
+        private void HeadLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TournamentViewerForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
